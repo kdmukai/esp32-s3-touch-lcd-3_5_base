@@ -1,0 +1,10 @@
+# "~" = allow patch-level changes (third position)
+#   * "~8.4" allows "8.4.1", "8.4.2", etc
+# "^" = allows upgrades that do not modify the left-most non-zero version field.
+dependencies:
+  idf: "~5.5.2"
+  lvgl/lvgl: "~8.4"
+  espressif/esp_lvgl_adapter: "^0.3.0"
+  espressif/esp_lcd_axs15231b: "^1.0.0"
+  espressif/esp_io_expander_tca9554: "^2.0.0"
+  # espressif/esp32-camera: "^2.1.4"
